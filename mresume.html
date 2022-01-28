@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>나의 이력</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	
+<div data-role="page" id="page1">
+	<div data-role="header" data-theme="b" data-position="fixed">			
+		<h1>나의 이력</h1>	
+		<a href="#page2" class="ui-btn-right">학력 사항</a>
+		<a href="index.html" data-icon="home" class="ui-btn-left">처음</a>	
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#page1" class="ui-btn-active ui-state-persist">1.인적 사항</a></li>
+				<li><a href="#page2">2.학력 사항</a></li>
+				<li><a href="#page3">3.취미 및 특기</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">		
+		<H4>1.인적 사항</H4>
+
+		<!-- 과제 수행1
+			table,th,td,tr 태그를 사용해 
+			인적사항 수행
+		-->			
+
+	</div>
+	<div data-role="footer" data-position="fixed" data-id="footerid1">
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="#" data-icon="plus">추가</a></li>
+				<li><a href="#" data-icon="minus">삭제</a></li>
+				<li><a href="index.html" data-icon="check" class="ui-btn-active ui-state-persist">확인</a></li>
+			</ul>
+		</div>
+	</div>	
+</div>
+
+
+<div data-role="page" id="page2">
+	<div data-role="header" data-theme="b" data-position="fixed">
+	    <h1>나의 이력</h1>	
+		<a href="#page3" class="ui-btn-right">취미 및 특기</a>
+		<a href="#page1" data-icon="home" class="ui-btn-left">인적 사항</a>					
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="#page1">1.인적 사항</a></li>
+				<li><a href="#page2" class="ui-btn-active ui-state-persist">2.학력 사항</a></li>
+				<li><a href="#page3">3.취미 및 특기</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">
+		<h4>2.학력사항</h4>
+		<!-- 과제 수행2
+			table,th,td,tr 태그를 사용해 
+			학력사항 수행
+		-->	
+	</div>
+	<div data-role="footer" data-position="fixed" data-id="footerid1">
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="#" data-icon="plus">추가</a></li>
+				<li><a href="#" data-icon="minus">삭제</a></li>
+				<li><a href="index.html" data-icon="check" class="ui-btn-active ui-state-persist">확인</a></li>
+			</ul>
+		</div>
+	</div>	
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header" data-theme="b" data-position="fixed">			
+		<h1>나의 이력</h1>	
+		<a href="#page2" class="ui-btn-left">학력 사항</a>
+		<a href="index.html" data-icon="home" class="ui-btn-right">처음</a>	
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="#page1">1.인적 사항</a></li>
+				<li><a href="#page2">2.학력 사항</a></li>
+				<li><a href="#page3" class="ui-btn-active ui-state-persist">3.취미 및 특기</a></li>
+			</ul>
+		</div>
+	</div>
+	<div data-role="content">
+		<H4>3. 취미 및 특기</H4>
+		<!-- 과제 수행2
+			table,th,td,tr 태그를 사용해 
+			취미 및 특기 수행
+		-->	
+	</div>
+	<div data-role="footer" data-position="fixed" data-id="footerid1">
+		<div data-role="navbar" >
+			<ul>
+				<li><a href="#" data-icon="plus">추가</a></li>
+				<li><a href="#" data-icon="minus">삭제</a></li>
+				<li><a href="index.html" data-icon="check" class="ui-btn-active ui-state-persist">확인</a></li>
+			</ul>
+		</div>
+	</div>	
+</div>
+
+</body>
+</html>
